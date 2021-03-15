@@ -131,7 +131,7 @@ nav{
     width: 500%;
     margin:0;
     left: 0;
-    animation: 20s slider infinite;
+    animation: 10s slider infinite;
   }
   
   #slider figure img{
@@ -161,4 +161,39 @@ nav{
     
   }
   /*slider end*/
-  
+
+  /* GRID START */
+.image-description{
+    display: grid;
+    grid-template-columns: 1fr;
+    width:100%;
+    margin: auto;
+    row-gap:20px;
+
+}
+
+.imagediv1{
+    align-items: center;
+    margin: auto;
+}
+.imagediv1 img{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+.imagediv2{
+    align-items: center;
+    margin: auto;
+}
+.imagediv2 img{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+@media screen and (max-width: 1074px){
+    .image-description{
+      grid-template-columns: 1fr;
+    }
+  }
+/*GRID END*/
+
