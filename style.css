@@ -189,15 +189,14 @@ nav{
   }
   
   #options{
-    margin-top: 6%;
-    margin-bottom:8%;
+    margin-bottom:2%;
   }
   
   .container.grd{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 1.5rem;
-    padding-top: 50px;
+   padding-top: 50px;
   }
   
   .box{
@@ -293,7 +292,7 @@ filter: brightness(40%)
 
 }
 
-.abouttxt{
+.abouttxt {
   position: absolute;
   top: 250px;
   left: 100px;
@@ -301,8 +300,9 @@ filter: brightness(40%)
   color: white;
 }
 
-.abouttxt p{
+.abouttxt .abouttxt1{
   color: white;
+  font-size: 20px;
   left: 50px;
 }
 .aboutus-text-container{
