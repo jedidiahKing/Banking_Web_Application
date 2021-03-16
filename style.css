@@ -122,6 +122,17 @@ nav{
 
 /*slider start*/
 
+.slider1-button{
+    position: relative;
+}
+.img-button{
+    position: absolute;
+    background-color:#dd5928;
+    top:350px;
+    left:100px;
+    
+}
+
 #slider{
     overflow: hidden;
   }
@@ -175,7 +186,16 @@ nav{
 .imagediv1{
     align-items: center;
     margin: auto;
+    position: relative;
 }
+.pic-text{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    font-size: 20px;
+    color: white;
+}
+
 .imagediv1 img{
     width: 100%;
     height: 500px;
@@ -196,6 +216,244 @@ nav{
     }
   }
 /*GRID END*/
+
+
+/*ABOUT US START*/
+
+.aboutimage{
+  position: relative;
+}
+
+.aboutimage img{
+width: 100%;
+filter: brightness(40%)
+
+}
+
+.abouttxt{
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  font-size: 20px;
+  color: white;
+}
+
+.abouttxt p{
+  color: white;
+  left: 50px;
+}
+.aboutus-text-container{
+  text-align: center;
+  width: 85%;
+  padding-left: 100px;
+}
+.aboutus-text{
+  text-align: center;
+  font-size: 30px;
+  
+}
+.aboutus-text p{
+  font-size: 20px;
+  color: #616161;
+  font-family:'Avenir Next';
+}
+
+.management-team{
+  text-align: center;
+  font-size: 30px;
+}
+
+.img-area{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-img{
+  padding: 0 20px 20px;
+}
+
+.img:hover{
+  opacity: .5;
+  transition: .9s;
+}
+
+/*ABOUT US END*/
+
+
+
+/*contact start*/
+
+.contact{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(img/mobilebank.png);
+  background-size: cover;
+}
+
+.contact .content1{
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact .content1 h2{
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact .content1 p{
+  font-weight: 300;
+  color: #fff;
+}
+
+.container1{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container1 .contactinfo{
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+}
+.container1 .contactinfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container1 .contactinfo .box .icon{
+  min-width: 60px;
+  height: 60px;
+  background:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 22px;
+}
+
+.container1 .contactinfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container1 .contactinfo .box .text h3{
+  font-weight: 500;
+  color: #dd5928;
+}
+
+.contactForm{
+  width:40%;
+  padding: 40px;
+  background: #fff;
+}
+
+.contactForm h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contactForm .inputBox{
+  position: relative;
+  width: 100%;
+  margin-top:10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+  width:100%;
+  padding: 5px 0;
+  font-size:16px;
+  margin:10px 0;
+  border:none;
+  border-bottom: 2px solid #333;
+  outline:none;
+  resize: none;
+}
+
+.contactForm .inputBox span{
+  position: absolute;
+  left:0;
+  width:100%;
+  padding: 5px 0;
+  font-size:16px;
+  margin:10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+color: #e91e63;
+font-size:12px;
+transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]{
+  width: 100px;
+  background: #dd5928;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size:18px;
+}
+
+@media (max-width: 991px){
+  .contact
+  {
+    padding: 50px;
+  }
+
+  .container1
+  {
+    flex-direction: column;
+  }
+
+  .container1 .contactinfo
+  {
+    margin-bottom: 40px;
+  }
+
+  .container .contactinfo,
+  .contactForm
+  {
+    width: 100%;
+  }
+}
+
+/*contact end*/
+
+
+
+
+
+
+
+
+
+
 
 /*FOOTER START*/
 
