@@ -32,7 +32,7 @@ nav{
   }
   nav .logo{
     color: #fff;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 600;
   }
   nav ul{
@@ -165,7 +165,7 @@ button {
 }
 
 .tip {
-    font-size: 20px;
+    font-size: 35px;
     margin: 40px auto 50px;
     text-align: center;
 }
@@ -292,6 +292,7 @@ button {
 .cont.s--signup .img__text.m--up {
     -webkit-transform: translateX(520px);
     transform: translateX(520px);
+
 }
 
 .img__text.m--in {
@@ -402,8 +403,9 @@ input {
 .submit {
     margin-top: 40px;
     margin-bottom: 20px;
-    background: #d4af7a;
+    background: #dd5928;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .fb-btn {
