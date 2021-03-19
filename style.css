@@ -26,6 +26,7 @@ nav{
     font-size: 20px;
     font-weight: 600;
   }
+
   nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -323,14 +324,14 @@ filter: brightness(40%)
 
 .management-team{
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .img-area{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: center;
 }
 
